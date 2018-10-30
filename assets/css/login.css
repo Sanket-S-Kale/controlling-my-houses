@@ -1,0 +1,187 @@
+html {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat-x;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+body {
+    background-color: #ffffff;
+    color: #666666;
+}
+
+.row {
+    padding: 0px;
+    margin-left: 0px !important;
+    margin-right: 0px !important
+}
+
+.row div {
+    padding: 0px;
+}
+
+.my-h1 {
+    padding-left: 10px;
+    line-height: 200%;
+    background-color: #000033;
+    color: #ffffff;
+    margin: 0;
+}
+
+.my-h2 {
+    color: #3399cc;
+    font-family: Georgia, serif !important;
+    margin-top: 0px;
+}
+
+nav {
+    font-weight: bold;
+    padding: 5%;
+}
+
+#nav-div {
+    background-color: #90c7e3;
+}
+
+footer {
+    font-size: .7em;
+    font-style: italic;
+    text-align: center;
+    padding: 1%;
+}
+
+.my-img {
+    height: 35%;
+    width: 100%;
+}
+
+section {
+    padding: 2%;
+}
+
+address>a:link, nav>a:link {
+    text-decoration: none;
+}
+
+nav>a {
+    padding-right: 1%;
+    color: #000033;
+}
+
+nav> a:hover{
+    color: #ffffff !important;
+}
+
+nav> a:visited{
+    color: #344873;
+}
+
+.p-20 {
+    padding: 2% !important;
+}
+
+/* #table-container table {
+    width: 90%;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.text-center {
+    text-align: center;
+}
+
+/* #table-container table, th, td {
+    border: #90c7e3 solid;
+}
+
+#table-container table tr:nth-of-type(even) {
+    background-color: #f5fafc;
+} */
+
+#tel {
+    color: #666666;
+}
+
+.my-h3{
+    color: #000033;
+}
+
+
+
+
+
+/*////////////////////////css for login///////////////////////////////////////*/
+
+
+
+
+
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color:cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+.loginImg{
+    content:url("../images/houseImg3.jpg");
+		background-size: contain;
+        width: 100%; 
+        /*max-width: 300px;*/ 
+        max-height: 450px;
+		margin: 0;
+    	padding: 0;
+    	border: 0;
+}
+
+.topleft {
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    /*font-weight: bold;*/
+    color: black;
+    font-family: Georgia;
+    margin-top: 0px;
+    font-size: 200%;
+}
+
+/*////////////////////////css for login///////////////////////////////////////*/
